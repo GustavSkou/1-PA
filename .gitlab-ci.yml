@@ -1,0 +1,36 @@
+image: dotnet/sdk
+
+task1:
+  stage: test
+  script:
+    - dotnet test Test/Task1.Test
+
+task2:
+  stage: test
+  script:
+    - dotnet test Test/Task2.Test
+
+task3:
+  stage: test
+  script:
+    - dotnet test Test/Task3.Test
+      
+task4:
+  stage: test
+  script:
+    - dotnet test Test/Task4.Test
+      
+task5:
+  stage: test
+  script:
+    - dotnet test Test/Task5.Test
+
+task6:
+  stage: test
+  script:
+    - dotnet test Test/Task6.Test
+
+task7:
+  stage: test
+  script:
+    - dotnet test Test/Task7.Test
