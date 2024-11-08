@@ -17,8 +17,12 @@
 	public bool CheckEvenOrThrow(int number) {
 		//Write your solution between the dotted lines!
 		//--------------------------------------------
-
-
+        if (IsEven(number))
+        {
+            return true;
+        }
+        
+        throw new Exception();
 
 		//--------------------------------------------
 	}
