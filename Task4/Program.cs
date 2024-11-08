@@ -16,7 +16,10 @@
 
     //Write your solution between the dotted lines!
 
-
+    public double Divide(double tæller, double nævner)
+    {
+        return tæller / nævner;
+    }
 
     //--------------------------------------------
 }
