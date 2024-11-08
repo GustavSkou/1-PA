@@ -1,5 +1,7 @@
 ﻿public class Program {
-	public static void Main(string[] args) {}
+	public static void Main(string[] args) 
+    {
+    }
 
 	/*
 	TASK 1 - Sum of array
@@ -14,12 +16,12 @@
 	public int SumOfArray(int[] arr) {
 		//Write your solution between the dotted lines!
 		//--------------------------------------------
-        int total = 0;
-        foreach (int num in arr)
+        int sum = 0;
+        foreach (int value in arr)
         {
-            total = total + num;
+            sum = sum + value;
         }
-        return total;
+        return sum;
 		//--------------------------------------------
 	}        
 }
