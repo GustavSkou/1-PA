@@ -14,9 +14,12 @@
 	public int SumOfArray(int[] arr) {
 		//Write your solution between the dotted lines!
 		//--------------------------------------------
-
-
-
+        int total = 0;
+        foreach (int num in arr)
+        {
+            total = total + num;
+        }
+        return total;
 		//--------------------------------------------
 	}        
 }
