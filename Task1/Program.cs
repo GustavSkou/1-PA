@@ -1,7 +1,5 @@
 ﻿public class Program {
-	public static void Main(string[] args) 
-    {
-    }
+	public static void Main(string[] args) {}
 
 	/*
 	TASK 1 - Sum of array
@@ -16,12 +14,8 @@
 	public int SumOfArray(int[] arr) {
 		//Write your solution between the dotted lines!
 		//--------------------------------------------
-        int sum = 0;
-        foreach (int value in arr)
-        {
-            sum = sum + value;
-        }
-        return sum;
+
+        return arr.Sum(value => value);
 		//--------------------------------------------
 	}        
 }
