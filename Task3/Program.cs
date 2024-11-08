@@ -13,9 +13,9 @@
 	public void FlipPositions(int[] arr) {
 		//Write your solution between the dotted lines!
 		//--------------------------------------------
-
-    
-    
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
 		//--------------------------------------------
 	}        
 }
