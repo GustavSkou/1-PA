@@ -14,7 +14,10 @@
 
     //Write your solution between the dotted lines!
 
-   
+    public int MultiplyAndReturn(int value)
+    {
+        return value * 2;
+    }
    
     //--------------------------------------------
 }
